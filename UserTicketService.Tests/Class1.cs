@@ -1,0 +1,24 @@
+﻿using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UserTicketService.Tests
+{
+    [TestFixture]
+    public class Class1
+    {
+        [Test]
+        public void Test1()
+        {
+            Assert.True(100 == 100);
+        }
+        [Test]
+        public void TestVoid()
+        {
+            Assert.That(1 == 0.1);
+        }
+    }
+}
